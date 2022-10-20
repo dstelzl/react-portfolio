@@ -5,15 +5,6 @@ function NavBar({ currentPage, setCurrentPage }) {
     <ul className='nav nav-tabs'>
       <li className='nav-item'>
         <a
-          href='#home'
-          onClick={() => setCurrentPage('Home')}
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-          Home
-        </a>
-      </li>
-      <li className='nav-item'>
-        <a
           href='#about'
           onClick={() => setCurrentPage('About')}
 
@@ -24,24 +15,33 @@ function NavBar({ currentPage, setCurrentPage }) {
       </li>
       <li className='nav-item'>
         <a
-          href='#blog'
-          onClick={() => setCurrentPage('Blog')}
-          //  TODO: Add a comment explaining what this logic is doing
-
-          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
-        >
-          Blog
-        </a>
-      </li>
-      <li className='nav-item'>
-        <a
           href='#contact'
-          //  TODO: Add a comment explaining what this logic is doing
+
 
           onClick={() => setCurrentPage('Contact')}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
+        </a>
+      </li>
+      <li className='nav-item'>
+        <a
+          href='#portfolio'
+          onClick={() => setCurrentPage('Portfolio')}
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+        >
+          Portfolio
+        </a>
+      </li>
+      <li className='nav-item'>
+        <a
+          href='#resume'
+          onClick={() => setCurrentPage('Resume')}
+       
+
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
         </a>
       </li>
     </ul>

@@ -6,24 +6,20 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import NavBar from './components/NavBar';
+import NavBar2 from './components/NavBar2';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About');
   return (
     <>
-<NavBar />
-  if (currentPage==='About') {
-    <About />
-  }
-  if (currentPage==='Contact') {
-    <Contact />
-  }
-  if (currentPage==='Portfolio') {
-    <Portfolio />
-  }
-  if (currentPage==='Resume') {
-    <Resume />
-  } </>
-)}
+      <NavBar currentPage = {currentPage} setCurrentPage = {setCurrentPage} />
+      {/* <NavBar2 /> */}
+      {currentPage === 'About' ? <About /> : <></>}
+      {currentPage === 'Contact' ? <Contact /> : <></>}
+      {currentPage === 'Portfolio' ? <Portfolio /> : <></>}
+      {currentPage === 'Resume' ? <Resume /> : <></>}
+    </>
+  );
+}
 
 export default App;
