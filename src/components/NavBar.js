@@ -2,8 +2,8 @@ import React from 'react';
 
 function NavBar({ currentPage, setCurrentPage }) {
   return (
-    <ul className='nav nav-tabs'>
-      <li className='nav-item'>
+    <nav className='nav justify-content-center'>
+      <div className='nav-item'>
         <a
           href='#about'
           onClick={() => setCurrentPage('About')}
@@ -12,8 +12,8 @@ function NavBar({ currentPage, setCurrentPage }) {
         >
           About
         </a>
-      </li>
-      <li className='nav-item'>
+      </div>
+      <div className='nav-item'>
         <a
           href='#contact'
 
@@ -23,8 +23,8 @@ function NavBar({ currentPage, setCurrentPage }) {
         >
           Contact
         </a>
-      </li>
-      <li className='nav-item'>
+      </div>
+      <div className='nav-item'>
         <a
           href='#portfolio'
           onClick={() => setCurrentPage('Portfolio')}
@@ -32,8 +32,8 @@ function NavBar({ currentPage, setCurrentPage }) {
         >
           Portfolio
         </a>
-      </li>
-      <li className='nav-item'>
+      </div>
+      <div className='nav-item'>
         <a
           href='#resume'
           onClick={() => setCurrentPage('Resume')}
@@ -43,8 +43,8 @@ function NavBar({ currentPage, setCurrentPage }) {
         >
           Resume
         </a>
-      </li>
-    </ul>
+      </div>
+    </nav>
   );
 }
 

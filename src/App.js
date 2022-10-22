@@ -6,14 +6,16 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import NavBar from './components/NavBar';
-import NavBar2 from './components/NavBar2';
+
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About');
   return (
     <>
+    <div>
       <NavBar currentPage = {currentPage} setCurrentPage = {setCurrentPage} />
-      {/* <NavBar2 /> */}
+   
+      </div>
       {currentPage === 'About' ? <About /> : <></>}
       {currentPage === 'Contact' ? <Contact /> : <></>}
       {currentPage === 'Portfolio' ? <Portfolio /> : <></>}

@@ -2,10 +2,10 @@ import React from 'react';
 
 const Resume = () => {
   return (
-    <div>
-      <h1>Resume</h1>
-      <div>
-        <h2>Front-End Skills</h2>
+    <div clasName="container p-5">
+     <div className='p-3'><h1>Resume</h1></div> 
+      <div className='p-3'>
+        <h3>Front-End Skills</h3>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
@@ -17,8 +17,8 @@ const Resume = () => {
         </ul>
       </div>
 
-      <div>
-        <h2>Back-End Skills</h2>
+      <div className='p-3'>
+        <h3>Back-End Skills</h3>
         <ul>
           <li>APIs</li>
           <li>Node</li>
@@ -31,18 +31,17 @@ const Resume = () => {
         </ul>
       </div>
       <footer>
-        <div>
+        <div className='p-3 row justify-content-center'>
           <a href='https://www.linkedin.com/in/deeann-stelzl-4402b9127/'
             target='_blank'rel='noopener noreferrer'>
             LinkedIn
           </a>
-        </div>
-        <div>
+        <div></div>
           <a href='https://www.github.com/dstelzl' target='_blank' rel='noopener noreferrer'>
             Github
           </a>
         </div>
-        links to github and linkedin
+      
       </footer>
     </div>
   );
