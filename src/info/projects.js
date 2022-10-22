@@ -1,6 +1,6 @@
 
-// import {screenshot} from '../assets/images/index.js'
-import {image} from '../assets/images/index.js';
+
+
 
 const projects = [
   {name: "Queen City Pups", technologies: ['HTML', 'Bootstrap', 'Javascript', 'MySQL/Sequelize', 'REST'], repository: "https://github.com/tedtalktimmy/queen-city-pup", url: "https://evening-river-11733.herokuapp.com/", image: ''},

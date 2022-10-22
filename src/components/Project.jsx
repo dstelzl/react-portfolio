@@ -1,16 +1,14 @@
 import React from 'react'
-import image from './../assets/images';
+
 
 
 const Project = ({information}) => {
   return (
-    
+ 
     <div>
-      <div className='card' >
-      <div classname = 'container width 8rem'>
-      <div classname = 'row d-flex'>
-      <div classname = 'col-8 justify-content-center'></div> 
-    <h3>{information.name}</h3>  
+
+   
+    <h4>{information.name}</h4>  
     <img src= {information.image} alt="screenshot" />
 <div>
 {information.technologies.map(tech => (
@@ -24,9 +22,7 @@ const Project = ({information}) => {
     <a href= {information.url}>Deployed Application</a>
     </div>
     </div>
-    </div>
-    </div>
-    </div>
+    
   )
 }
 

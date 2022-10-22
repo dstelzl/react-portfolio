@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavBar({ currentPage, setCurrentPage }) {
   return (
-    <nav className='nav justify-content-center'>
+    <nav className='nav justify-content-center bg-dark fs-4 p-3'>
       <div className='nav-item'>
         <a
           href='#about'
