@@ -3,11 +3,12 @@ import React from 'react';
 const Resume = () => {
   return (
     <div clasName='container p-5'>
-      <div className='p-3 bg-light text-dark text-center'>
-        <h1>Resume</h1>
+      <div className='p-3 bg-dark text-light text-left'>
+        <h1>see deeann's skills.</h1>
       </div>
-      <div className='display-flex row'>
-        <div className='p-3  text-center row bg-dark text-light'>
+      <div className='container d-flex'>
+      <div className='row align-items-center justify-content-center'>
+        <div className='p-3 col-6'>
           <h3>Front-End Skills</h3>
           <ul>
             <li>HTML</li>
@@ -20,7 +21,7 @@ const Resume = () => {
           </ul>
         </div>
 
-        <div className='p-3 text-center row bg-dark text-light'>
+        <div className='p-3 col-6'>
           <h3>Back-End Skills</h3>
           <ul>
             <li>APIs</li>
@@ -34,14 +35,15 @@ const Resume = () => {
           </ul>
         </div>
       </div>
+      </div>
       <footer className='footer'>
-        <div className='container d-flex '>
+        <div className='container d-flex bg-dark text-white'>
           <div>
             <a
               href='https://www.linkedin.com/in/deeann-stelzl-4402b9127/'
               target='_blank'
               rel='noopener noreferrer'
-              className='text-dark p-3'
+              className='text-white p-3'
             >
               LinkedIn
             </a>
@@ -52,7 +54,7 @@ const Resume = () => {
               href='https://www.github.com/dstelzl'
               target='_blank'
               rel='noopener noreferrer'
-              className='text-dark p-3'
+              className='text-white p-3'
             >
               Github
             </a>
@@ -63,7 +65,7 @@ const Resume = () => {
               href='https://drive.google.com/file/d/1fuFHb9qSifUCVO7LgUtiAHATpYjER_Is/view?usp=sharing'
               target='_blank'
               rel='noopener noreferrer'
-              className='text-dark p-3'
+              className='text-white p-3'
             >
               Resume
             </a>

@@ -3,7 +3,7 @@ import ProfilePicture from '../assets/images/DeeAnnHeadshot.jpeg';
 
 const About = () => {
   return (
-    <div className='container' >
+    <div className='container-fluid bg-dark' >
       <div className='d-flex align-items-center'>
       <div className='col-4'>
       <img
@@ -12,12 +12,13 @@ const About = () => {
         alt={'DeeAnn Stelzl'}
       />
       </div>
-        <div className='col-5'>
-      <h1 id='about-me'>About DeeAnn Stelzl </h1>
+      <div className='col-5'>
+        <div className='bg-dark text-light'>
+      <h1 id='about-me'>meet deeann stelzl. </h1>
       </div>
-      
       </div>
-      <div className='container p-3'>
+      </div>
+      <div className='container p-3 text-light'>
         <p>
           After raising three kids- DeeAnn Stelzl found herself immersed inside
           the world of digital marketing - first as a project manager and then

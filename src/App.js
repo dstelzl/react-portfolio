@@ -16,6 +16,7 @@ function App() {
       <NavBar currentPage = {currentPage} setCurrentPage = {setCurrentPage} />
    
       </div>
+      
       {currentPage === 'About' ? <About /> : <></>}
       {currentPage === 'Contact' ? <Contact /> : <></>}
       {currentPage === 'Portfolio' ? <Portfolio /> : <></>}

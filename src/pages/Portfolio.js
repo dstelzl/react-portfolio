@@ -6,14 +6,17 @@ import projects from '../info/projects';
 const Portfolio = () => {
   return (
     <>
-    <div>
-    <h1>Projects</h1>
-   
+    <div className='container-fluid bg-dark text-light p-3'>
+    <h1>check out deeann's projects.</h1>
+    </div>
+
+<div>
+  <div> 
 {projects.map(project => (
   <Project information = {project} />
 ))}
-    </div>
-   
+ </div>  
+</div>
     
     </>
   )
