@@ -3,7 +3,7 @@ import React from 'react';
 const Resume = () => {
   return (
     <>
-      <div className='container p-5 p-3 bg-dark text-light text-left'>
+      <div className='container-fluid p-5 p-3 bg-dark text-light text-left'>
         <h1>see deeann's skills.</h1>
       </div>
       

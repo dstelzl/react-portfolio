@@ -6,8 +6,8 @@ import projects from '../info/projects';
 const Portfolio = () => {
   return (
     <>
-    <div className='container-fluid bg-dark text-light p-3'>
-    <h1>check out deeann's projects.</h1>
+    <div className='container-fluid bg-dark text-light p-5'>
+    <h1>see deeann's projects.</h1>
     </div>
 
   <div className='container'>
