@@ -10,13 +10,13 @@ const Portfolio = () => {
     <h1>check out deeann's projects.</h1>
     </div>
 
-<div>
-  <div> 
+  <div className='container'>
+  <div className='row'> 
 {projects.map(project => (
   <Project information = {project} />
 ))}
  </div>  
-</div>
+ </div>
     
     </>
   )

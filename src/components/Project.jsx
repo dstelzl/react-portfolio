@@ -5,27 +5,27 @@ import React from 'react'
 const Project = ({information}) => {
   return (
  
-<div className='container d-flex'>
-<div className='row bg-warning col-5'>
-  <div className='card'></div>
+
+<div className='col-12 col-md-4 d-flex flex-column justify-content-center align-items-center m-3 bg-dark text-white p-3 '>
+
    
     <h4 className=''>{information.name}</h4>  
     <img src= {information.image} alt="screenshot"
     className=''
     />
-<div>
+    <div className='d-flex justify-content-around'>
 {information.technologies.map(tech => (
-  <p>{tech}</p>
+  <p className=''>{tech}, </p>
 ))}
-</div>
-<div>
-    <a href= {information.repository}>GitHub Repo Link</a>
+  </div>
+
+
+    <a className= 'text-white' href= {information.repository}>GitHub Repo</a>
+
+    <a className= 'text-white' href= {information.url}>Deployed Application</a>
+
     </div>
-    <div>
-    <a href= {information.url}>Deployed Application</a>
-    </div>
-    </div>
-    </div>
+    
     
   )
 }
