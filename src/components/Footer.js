@@ -4,8 +4,8 @@ function Footer({ currentPage, setCurrentPage }) {
   console.log(currentPage)
   return (
 
- <footer className='footer'>
- <div className='container-fluid d-flex bg-dark text-white p-5'>
+ <footer className='p-5 container-fluid'>
+ <div className=' d-flex bg-dark text-white p-5'>
    <div>
      <a
        href='https://www.linkedin.com/in/deeann-stelzl-4402b9127/'
