@@ -2,8 +2,8 @@ import React from 'react';
 
 const Resume = () => {
   return (
-    <div clasName='container p-5'>
-      <div className='p-3 bg-dark text-light text-left'>
+    <>
+      <div className='container p-5 p-3 bg-dark text-light text-left'>
         <h1>see deeann's skills.</h1>
       </div>
       
@@ -37,8 +37,11 @@ const Resume = () => {
         
       </div>
       </div>
+      </div>
+       
+       </>
      
-    </div>
+   
   );
 };
 

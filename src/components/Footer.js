@@ -5,7 +5,7 @@ function Footer({ currentPage, setCurrentPage }) {
   return (
 
  <footer className='footer'>
- <div className='container d-flex bg-dark text-white'>
+ <div className='container-fluid d-flex bg-dark text-white'>
    <div>
      <a
        href='https://www.linkedin.com/in/deeann-stelzl-4402b9127/'
